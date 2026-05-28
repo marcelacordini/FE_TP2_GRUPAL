@@ -1,16 +1,54 @@
-# React + Vite
+# AppMinds - Dashboard Tech 🚀
+### Trabajo Práctico N°2 - Desarrollo Front End (React JS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bienvenido al repositorio oficial del **TP2 de AppMinds**. En esta entrega, migramos nuestra plataforma estática del TP1 hacia una Single Page Application (SPA) modular, robusta e interactiva utilizando **React** y **Vite**.
 
-Currently, two official plugins are available:
+El sistema funciona como un Dashboard integral orientado al ecosistema tecnológico, implementando rutas dinámicas, consumo de APIs asincrónicas, manejo de estados globales/locales y efectos visuales avanzados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Tecnologías y Herramientas Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Core:** React JS (v18+)
+* **Build Tool:** Vite (Ultra rápido)
+* **Enrutamiento:** React Router Dom (v6)
+* **Estilos:** CSS3 Modular con variables globales y arquitectura Cyberpunk Dark.
+* **Control de Versiones:** Git & GitHub (Estructura de ramas por integrante).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🌟 Características y Módulos Desarrollados
+
+El proyecto cumple al 100% con los requerimientos obligatorios de la cátedra:
+
+### 1. 👥 Home & Perfil Profesional Dinámico (`useParams`)
+* **Grilla Simétrica:** Presentación estética del equipo en la pantalla de inicio.
+* **Rutas Dinámicas:** Se utiliza el hook `useParams` para renderizar de forma 100% dinámica el perfil de cada integrante desde un archivo JSON centralizado (`miembros.json`), evitando la duplicación de páginas.
+* **Componentes Interactivos:** * **Carrusel de Proyectos:** Navegación manual (Anterior/Siguiente) de los trabajos de cada miembro gestionada con `useState`.
+  * **Barras de Progreso Animadas:** Indicadores visuales de habilidades técnicas.
+  * **Efectos Avanzados:** Efecto hover con escalado cúbico en redes sociales y flotación en el *Tech Stack*.
+
+### 2. 🔍 Explorador de Datos Locales (Filtro en Tiempo Real)
+* **Dataset Completo:** Manipulación de un JSON con 20 herramientas tecnológicas clave para desarrollo y analítica de datos.
+* **Filtro Combinado:** Caja de búsqueda por texto e inputs controlados combinados con botones de categorías que filtran la interfaz de manera reactiva e instantánea sin recargar el navegador.
+
+### 3. 🌐 Módulo de API Externa con Paginación Asincrónica
+* **Consumo de API:** Conexión en tiempo real con la API de *Rick and Morty* utilizando `useEffect` y promesas asincrónicas.
+* **Paginación Interactiva:** Botones de control manual para navegar por las diferentes páginas de la API, optimizando la carga de datos con un *Spinner* de carga animado.
+
+### 4. 🖼️ Galería Interactiva con Efecto Lightbox
+* Cuadrícula de imágenes de diseño de interfaces.
+* **Efecto Lightbox Nativo:** Al hacer clic en cualquier tarjeta, se despliega un modal flotante en pantalla completa con desenfoque de fondo (`backdrop-filter`) y botón de cierre estructurado de forma condicional en React.
+
+### 5. 📝 Bitácora de Viaje
+* Espacio dedicado a la documentación grupal del proceso de migración, control de versiones y desafíos superados durante el desarrollo del TP2.
+
+---
+
+## 🚀 Instalación y Ejecución Local
+
+Para correr este proyecto en tu computadora, sigue estos sencillos pasos:
+
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/marcelacordini/FE_TP2_GRUPAL.git](https://github.com/marcelacordini/FE_TP2_GRUPAL.git)
