@@ -1,0 +1,44 @@
+[
+  {
+    "id": "adriana",
+    "nombre": "Adriana Coronel",
+    "rol": "Full Stack Dev",
+    "avatar": "🦊",
+    "isEmoji": true,
+    "skills": ["JS", "Java", "PostgreSQL"]
+  },
+  {
+    "id": "marcela",
+    "nombre": "Marcela Cordini",
+    "rol": "Analista de Datos & Futura Desarrolladora de Software",
+    "avatar": "img/marcela/perfil.png",
+    "isEmoji": false,
+    "skills": ["Python", "SQL", "Looker Studio"],
+    "skillsDetailed": [
+      { "name": "Python", "level": 80 },
+      { "name": "SQL", "level": 60 },
+      { "name": "Looker Studio", "level": 75 },
+      { "name": "C#", "level": 80 },
+      { "name": "JavaScript", "level": 60 }
+    ],
+    "bio": "Me apasiona el diseño web logrando interfaces que traduzcan fielmente los requerimientos técnicos en una experiencia de usuario fluida.",
+    "ubicacion": "CABA, Argentina",
+    "edad": 48
+  },
+  {
+    "id": "lucas",
+    "nombre": "Lucas Monteras",
+    "rol": "Desarrollador .NET",
+    "avatar": "img/lucas/avatarLucas.jpeg",
+    "isEmoji": false,
+    "skills": [".NET", "C#", "React JS"]
+  },
+  {
+    "id": "enrique",
+    "nombre": "Enrique Saracco",
+    "rol": "Soporte de hardware",
+    "avatar": "img/enrique/enrique_avatar.png",
+    "isEmoji": false,
+    "skills": ["Hardware", "Infraestructura", "Electricidad"]
+  }
+]
