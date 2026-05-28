@@ -23,7 +23,29 @@
     ],
     "bio": "Me apasiona el diseño web logrando interfaces que traduzcan fielmente los requerimientos técnicos en una experiencia de usuario fluida.",
     "ubicacion": "CABA, Argentina",
-    "edad": 48
+    "edad": 47,
+    "techStack": ["🐍 Python", "🛢️ SQL", "📊 Looker", "💻 C#", "🌐 JavaScript"],
+    "redes": [
+      { "nombre": "GitHub", "url": "https://github.com/marcelacordini" },
+      { "nombre": "LinkedIn", "url": "https://linkedin.com" }
+    ],
+    "proyectos": [
+      {
+        "titulo": "SePrise - Gestión de Club Deportivo",
+        "descripcion": "Un sistema integral desarrollado para administrar socios, disciplinas y cobros de un club deportivo, diseñado inicialmente en Figma.",
+        "tag": "Backend & UI"
+      },
+      {
+        "titulo": "Sistema de Notificaciones ENACOM",
+        "descripcion": "Implementación de un sistema automatizado de emailing masivo para optimizar el cumplimiento regulatorio de presentación de datos.",
+        "tag": "Data Analysis"
+      },
+      {
+        "titulo": "Dashboard de BI Inmobiliario",
+        "descripcion": "Tablero interactivo en Looker Studio para el análisis de tendencias de mercado, precios por zona y KPIs comerciales.",
+        "tag": "Looker Studio"
+      }
+    ]
   },
   {
     "id": "lucas",

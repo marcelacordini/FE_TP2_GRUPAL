@@ -100,3 +100,95 @@
   object-fit: cover;     /* Propiedad mágica: encuadra la foto sin deformarla */
   object-position: center top; /* Enfoca la cara y corta más que nada los hombros/fondo */
 }
+/* --- Estilos del Perfil Profesional --- */
+
+/* Tech Stack e Iconos */
+.tech-icons-container {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tech-icon-item {
+  background: #1e2238;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: default;
+}
+
+/* Efecto visual iconos */
+.tech-icon-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+  background: #252a4a;
+}
+
+/* Botones de redes sociales con escalado avanzado */
+.btn-social {
+  background: #7c3aed;
+  color: white;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), background-color 0.2s ease;
+}
+
+.btn-social:hover {
+  background-color: #6d28d9;
+  transform: scale(1.1); 
+}
+
+/* Estructura del Carrusel de Proyectos */
+.carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #121424;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #23263d;
+  margin-top: 1rem;
+  min-height: 120px;
+}
+
+.carousel-item-content {
+  flex: 1;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.carousel-item-content h3 {
+  margin: 0.5rem 0;
+  color: white;
+}
+
+.carousel-item-content p {
+  color: #a0a5c2;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.carousel-btn {
+  background: #1e2238;
+  color: white;
+  border: 1px solid #23263d;
+  padding: 0.6rem 0.8rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.carousel-btn:hover {
+  background: #7c3aed;
+  border-color: #7c3aed;
+}
+
+.project-tag {
+  background: rgba(124, 58, 237, 0.2) !important;
+  color: #a076f9 !important;
+  border: 1px solid rgba(124, 58, 237, 0.4);
+}
