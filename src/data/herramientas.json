@@ -1,0 +1,22 @@
+[
+  { "id": 1, "nombre": "Visual Studio Code", "categoria": "Tools", "descripcion": "El editor de código definitivo, ligero y altamente extensible.", "icono": "📝" },
+  { "id": 2, "nombre": "Git", "categoria": "Tools", "descripcion": "Sistema de control de versiones indispensable para el trabajo en equipo.", "icono": "🔀" },
+  { "id": 3, "nombre": "Python", "categoria": "Data", "descripcion": "Lenguaje líder en ciencia de datos, automatización y scripting.", "icono": "🐍" },
+  { "id": 4, "nombre": "PostgreSQL", "categoria": "Backend", "descripcion": "Base de datos relacional robusta, potente y de código abierto.", "icono": "🛢️" },
+  { "id": 5, "nombre": "React JS", "categoria": "Frontend", "descripcion": "Librería de JavaScript para construir interfaces de usuario modulares.", "icono": "⚛️" },
+  { "id": 6, "nombre": "Node.js", "categoria": "Backend", "descripcion": "Entorno de ejecución de JavaScript para el lado del servidor.", "icono": "🟢" },
+  { "id": 7, "nombre": "Pandas", "categoria": "Data", "descripcion": "Librería de Python fundamental para la manipulación y análisis de datos.", "icono": "🐼" },
+  { "id": 8, "nombre": "Looker Studio", "categoria": "Data", "descripcion": "Herramientas de Google para la creación de dashboards e informes visuales.", "icono": "📊" },
+  { "id": 9, "nombre": "Docker", "categoria": "Tools", "descripcion": "Plataforma de contenedores para asegurar que el código funcione igual en cualquier PC.", "icono": "🐳" },
+  { "id": 10, "nombre": "Figma", "categoria": "Frontend", "descripcion": "Herramientas de diseño colaborativo para prototipar interfaces de usuario.", "icono": "🎨" },
+  { "id": 11, "nombre": "MongoDB", "categoria": "Backend", "descripcion": "Base de datos NoSQL basada en documentos muy flexible.", "icono": "🍃" },
+  { "id": 12, "nombre": "TypeScript", "categoria": "Frontend", "descripcion": "Superset de JavaScript que añade tipado estático para evitar errores.", "icono": "🔷" },
+  { "id": 13, "nombre": "Postman", "categoria": "Tools", "descripcion": "Aplicación imprescindible para probar y testear endpoints de APIs.", "icono": "🚀" },
+  { "id": 14, "nombre": "NumPy", "categoria": "Data", "descripcion": "Librería de Python experta en computación numérica y matrices masivas.", "icono": "🔢" },
+  { "id": 15, "nombre": "Tailwind CSS", "categoria": "Frontend", "descripcion": "Framework de CSS basado en clases de utilidad para maquetar a la velocidad de la luz.", "icono": "💨" },
+  { "id": 16, "nombre": "Express.js", "categoria": "Backend", "descripcion": "Framework minimalista y rápido para construir APIs REST en Node.js.", "icono": "🚂" },
+  { "id": 17, "nombre": "Jupyter Notebook", "categoria": "Data", "descripcion": "Entorno interactivo ideal para experimentar con datos y código Python.", "icono": "📓" },
+  { "id": 18, "nombre": "Amazon Web Services", "categoria": "Tools", "descripcion": "Plataforma de servicios de computación en la nube para desplegar apps.", "icono": "☁️" },
+  { "id": 19, "nombre": "Sass", "categoria": "Frontend", "descripcion": "Preprocesador de CSS que añade superpoderes como variables y anidamiento.", "icono": "💅" },
+  { "id": 20, "nombre": "DBeaver", "categoria": "Data", "descripcion": "Cliente de base de datos universal compatible con SQL, Postgres y más.", "icono": "🦫" }
+]

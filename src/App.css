@@ -192,3 +192,96 @@
   color: #a076f9 !important;
   border: 1px solid rgba(124, 58, 237, 0.4);
 }
+
+/* --- Estilos del Explorador de Herramientas --- */
+
+.search-input {
+  width: 100%;
+  padding: 0.8rem 1.2rem;
+  background: #121424;
+  border: 1px solid #23263d;
+  border-radius: 8px;
+  color: white;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #7c3aed;
+  box-shadow: 0 0 0 3px rgba(124, 58, 237, 0.15);
+}
+
+/* Botones de categorías */
+.btn-category {
+  background: #1e2238;
+  color: #a0a5c2;
+  border: 1px solid #23263d;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btn-category:hover {
+  background: #252a4a;
+  color: white;
+}
+
+.btn-category.active {
+  background: #7c3aed;
+  border-color: #7c3aed;
+  color: white;
+}
+
+/* Grilla de Herramientas */
+.tools-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.2rem;
+}
+
+.tool-card {
+  background: #1c1f35;
+  border: 1px solid #23263d;
+  padding: 1.5rem;
+  border-radius: 10px;
+  transition: all 0.2s ease;
+}
+
+.tool-card:hover {
+  transform: translateY(-4px);
+  border-color: #4c1d95;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.tool-icon-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.tool-emoji {
+  font-size: 1.8rem;
+}
+
+.tool-category-tag {
+  background: rgba(160, 165, 194, 0.1) !important;
+  color: #a0a5c2 !important;
+  font-size: 0.75rem !important;
+}
+
+.tool-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.tool-card p {
+  color: #a0a5c2;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  margin: 0;
+}
