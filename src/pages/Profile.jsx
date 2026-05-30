@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import equipoData from '../data/miembros.json';
-import '../assets/css/member.css'; 
+import '../assets/css/member.css';
 
 function Profile() {
   const { id } = useParams();
@@ -38,7 +38,7 @@ function Profile() {
 
       <header className="profile-header">
         <div className="profile-avatar-wrap">
-          <div className="profile-avatar">
+          <div className={`profile-avatar ${miembro.isEmoji ? 'emoji' : 'photo'}`}>
             {miembro.isEmoji ? (
               <span style={{ fontSize: '4rem' }}>{miembro.avatar}</span>
             ) : (

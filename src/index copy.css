@@ -3,9 +3,6 @@
    ========================================= */
 
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap');
-@import './assets/css/index.css';
-@import './assets/css/member.css';
-@import './assets/css/bitacora.css';
 
 /* ---- CSS Variables ---- */
 :root {
@@ -110,7 +107,6 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   border-radius: 2px;
   transition: var(--transition);
 }
-
 
 /* ---- Buttons ---- */
 .btn-primary {

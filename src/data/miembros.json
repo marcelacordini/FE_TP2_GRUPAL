@@ -1,12 +1,73 @@
 [
   {
-    "id": "adriana",
-    "nombre": "Adriana Coronel",
-    "rol": "Full Stack Dev",
-    "avatar": "🦊",
-    "isEmoji": true,
-    "skills": ["JS", "Java", "PostgreSQL"]
-  },
+  "id": "adriana",
+  "nombre": "Adriana Coronel",
+  "rol": "Dev Full Stack & Analista Funcional",
+  "avatar": "🦊",
+  "isEmoji": true,
+  "skills": [
+    "Java",
+    "Node.js",
+    "JavaScript",
+    "MongoDB",
+    "SQL"
+  ],
+  "skillsDetailed": [
+    { "name": "Java", "level": 90 },
+    { "name": "Node.js", "level": 80 },
+    { "name": "JavaScript", "level": 85 },
+    { "name": "MongoDB", "level": 70 },
+    { "name": "SQL", "level": 75 },
+    { "name": "Git", "level": 80 },
+    { "name": "Docker", "level": 60 },
+    { "name": "Next.js", "level": 70 }
+  ],
+  "bio": "Desarrolladora orientada a la resolución de problemas de negocio mediante soluciones web y empresariales. Trabajo con tecnologías Java y JavaScript, integraciones con APIs, bases de datos y despliegues sobre Tomcat. Me interesa mejorar procesos, definir metodologías de trabajo y construir aplicaciones mantenibles y escalables.",
+  "ubicacion": "Sgo. del Estero, Argentina",
+  "edad": 32,
+  "techStack": [
+    "☕ Java",
+    "🟢 Node.js",
+    "📜 JavaScript",
+    "⚛️ Next.js",
+    "🍃 MongoDB",
+    "🗄️ SQL",
+    "🐳 Docker",
+    "🐱 Git"
+  ],
+  "redes": [
+    {
+      "nombre": "GitHub",
+      "url": ""
+    },
+    {
+      "nombre": "LinkedIn",
+      "url": ""
+    }
+  ],
+  "proyectos": [
+    {
+      "titulo": "Integración de Finanzas con Notion",
+      "descripcion": "Sistema de gestión financiera utilizando la API de Notion, con dashboard, operaciones CRUD y frontend en Next.js.",
+      "tag": "Next.js & Notion API"
+    },
+    {
+      "titulo": "Aplicaciones Empresariales sobre Tomcat",
+      "descripcion": "Desarrollo y mantenimiento de aplicaciones corporativas Java desplegadas en distintos entornos Tomcat, gestionando configuraciones externas y compatibilidad entre versiones.",
+      "tag": "Java Enterprise"
+    },
+    {
+      "titulo": "Migración y Modernización Node.js",
+      "descripcion": "Actualización de proyectos Node.js, migración de CommonJS a ESM, configuración de debugging y mejora de la experiencia de desarrollo.",
+      "tag": "Backend"
+    },
+    {
+      "titulo": "Normalización de Tipos Documentales",
+      "descripcion": "Implementación y migración de documentos para reemplazar dependencias externas y garantizar compatibilidad entre sistemas.",
+      "tag": "Java"
+    }
+  ]
+},
   {
     "id": "marcela",
     "nombre": "Marcela Cordini",
