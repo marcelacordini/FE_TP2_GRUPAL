@@ -93,9 +93,155 @@
   gap: 0.4rem;
   margin-top: 1rem;
 }
+.tag {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border: 1px solid;
+  border-radius: var(--radius-pill);
+  font-size: 0.75rem;
+  font-family: var(--font-mono);
+  font-weight: 400;
+  transition: all var(--transition);
+}
 .tag-decision { background: rgba(124,58,237,0.15); border-color: rgba(124,58,237,0.3); color: var(--purple-light); }
 .tag-problem  { background: rgba(236,72,153,0.12); border-color: rgba(236,72,153,0.3); color: #f472b6; }
 .tag-change   { background: rgba(34,211,238,0.1);  border-color: rgba(34,211,238,0.3);  color: var(--cyan); }
+
+/* ---- Team Details ---- */
+.team-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  animation: fadeDown 0.6s 0.2s ease both;
+}
+
+.team-summary,
+.workflow-summary {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  transition: border-color var(--transition);
+}
+
+.team-summary:hover,
+.workflow-summary:hover {
+  border-color: rgba(124,58,237,0.4);
+}
+
+.team-summary h2,
+.workflow-summary h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--purple-light);
+}
+
+.team-summary ul,
+.workflow-summary ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.team-summary li,
+.workflow-summary li {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.team-summary li::before,
+.workflow-summary li::before {
+  content: '▪';
+  position: absolute;
+  left: 0;
+  color: var(--purple);
+}
+
+/* ---- Architecture Section ---- */
+.architecture-section {
+  margin-top: 3rem;
+  animation: fadeDown 0.6s 0.4s ease both;
+}
+
+.architecture-section h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--text);
+}
+
+.render-tree {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem;
+  margin-bottom: 1.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  overflow-x: auto;
+}
+
+.tree-node {
+  padding: 0.5rem 1rem;
+  background: rgba(124,58,237,0.1);
+  border: 1px solid rgba(124,58,237,0.3);
+  border-radius: 6px;
+  display: inline-block;
+  margin: 0.5rem;
+  color: var(--purple-light);
+  font-weight: 500;
+}
+
+.tree-node.root {
+  background: rgba(124,58,237,0.2);
+  border-color: rgba(124,58,237,0.5);
+  font-weight: 700;
+  color: var(--purple);
+}
+
+.tree-branch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
+  padding-left: 1rem;
+  border-left: 2px solid rgba(124,58,237,0.3);
+}
+
+.tree-branch.subbranch {
+  margin-left: 4rem;
+}
+
+.architecture-copy {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.migration-section,
+.architecture-section {
+  margin-bottom: 2.5rem;
+}
+.migration-section h2,
+.team-details h2 {
+  margin-bottom: 1rem;
+}
+.migration-section p,
+.migration-section ul {
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+.migration-section ul {
+  list-style: disc;
+  margin-left: 1.3rem;
+}
 
 /* ---- Responsive ---- */
 @media (max-width: 900px) {
