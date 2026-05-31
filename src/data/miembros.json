@@ -62,7 +62,7 @@
     { "name": "SQL Server", "level": 80 },
     { "name": "Git", "level": 80 }
   ],
-  "bio": "Soy desarrollador de software y disfruto crear soluciones útiles, claras y bien pensadas. Trabajo con C#, .NET, React y SQL Server, y siempre busco seguir aprendiendo y mejorando.",
+  "bio": "Soy desarrollador de software y disfruto crear soluciones útiles y claras. Trabajo con C#, .NET, React y SQL Server, y siempre busco seguir aprendiendo y mejorando.",
   "ubicacion": "CABA, Argentina",
   "edad": 38,
   "techStack": ["⚙️ .NET", "💻 C#", "⚛️ React", "🗄️ SQL Server", "🐙 Git"],
