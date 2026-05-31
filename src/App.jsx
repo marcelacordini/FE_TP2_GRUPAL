@@ -7,6 +7,7 @@ import Explorer from './pages/Explorer';
 import ApiModule from './pages/ApiModule';
 import Gallery from './pages/Gallery';
 import Bitacora from './pages/Bitacora';
+import RenderTree from './pages/RenderTree';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="api" element={<ApiModule />} />
           <Route path="galeria" element={<Gallery />} />
           <Route path="bitacora" element={<Bitacora />} />
+          <Route path="renderizado" element={<RenderTree />} />
         </Route>
       </Routes>
     </BrowserRouter>

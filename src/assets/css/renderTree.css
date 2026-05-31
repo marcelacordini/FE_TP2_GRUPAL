@@ -1,0 +1,9 @@
+.rd3t-link {
+  stroke: #7c3aed !important;
+  stroke-width: 2px !important;
+  transition: stroke 0.3s ease;
+}
+
+path.rd3t-link {
+  stroke-opacity: 0.6 !important;
+}

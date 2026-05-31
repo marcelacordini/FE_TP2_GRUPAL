@@ -583,3 +583,146 @@
   background: #7c3aed;
   transform: scale(1.1);
 }
+
+/* --- Estilos del Árbol de Renderizado con Mermaid --- */
+
+.render-tree-page {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.mermaid-container {
+  background: #121424;
+  border: 1px solid #23263d;
+  border-radius: 20px;
+  padding: 2rem;
+  overflow-x: scroll;
+}
+
+.mermaid {
+  display: flex;
+  justify-content: center;
+}
+
+.render-tree-diagram-section {
+  margin: 1rem 0;
+}
+
+.render-tree-details {
+  background: #121424;
+  border: 1px solid #23263d;
+  border-radius: 20px;
+  padding: 1.8rem;
+}
+
+.details-columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.detail-card {
+  background: #1c1f35;
+  border: 1px solid #23263d;
+  border-radius: 12px;
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+}
+
+.detail-card:hover {
+  border-color: #7c3aed;
+  box-shadow: 0 8px 20px rgba(124, 58, 237, 0.1);
+  transform: translateY(-2px);
+}
+
+.detail-card h3 {
+  margin: 0 0 0.8rem 0;
+  color: white;
+}
+
+.detail-card p {
+  margin: 0;
+  color: #a0a5c2;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.detail-card code {
+  background: rgba(124, 58, 237, 0.2);
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
+  color: #a076f9;
+  font-family: monospace;
+  margin: 0 0.2rem;
+}
+
+.routing-info {
+  background: #121424;
+  border: 1px solid #23263d;
+  border-radius: 20px;
+  padding: 1.8rem;
+}
+
+.code-block {
+  background: #0b0d19;
+  border: 1px solid #23263d;
+  border-radius: 12px;
+  overflow-x: auto;
+  margin-top: 1rem;
+}
+
+.code-block pre {
+  margin: 0;
+  padding: 1.2rem;
+  color: #7c3aed;
+  font-family: monospace;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+.benefits {
+  background: #121424;
+  border: 1px solid #23263d;
+  border-radius: 20px;
+  padding: 1.8rem;
+}
+
+.benefits-list {
+  margin: 1.5rem 0 0;
+  padding-left: 1.5rem;
+  color: #c1c6de;
+}
+
+.benefits-list li {
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+}
+
+.benefits-list strong {
+  color: #7c3aed;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: #a0a5c2;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.back-link:hover {
+  color: #ffffff;
+}
+
+/* Responsivo para Mermaid */
+@media (max-width: 1024px) {
+  .mermaid-container {
+    overflow-x: scroll;
+  }
+
+  .details-columns {
+    grid-template-columns: 1fr;
+  }
+}

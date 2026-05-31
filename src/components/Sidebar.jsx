@@ -19,6 +19,9 @@ function Sidebar() {
         <NavLink to="/galeria" className={({ isActive }) => isActive ? 'active' : ''}>
           🖼️ Galería Interactiva
         </NavLink>
+        <NavLink to="/renderizado" className={({ isActive }) => isActive ? 'active' : ''}>
+          🌳 Árbol de Renderizado
+        </NavLink>
         <NavLink to="/bitacora" className={({ isActive }) => isActive ? 'active' : ''}>
           📋 Bitácora
         </NavLink>
