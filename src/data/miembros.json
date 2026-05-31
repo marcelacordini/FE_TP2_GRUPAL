@@ -119,9 +119,41 @@
   {
     "id": "enrique",
     "nombre": "Enrique Saracco",
-    "rol": "Soporte de hardware",
+    "rol": "Soporte de hardware y consultoría en IT",
     "avatar": "img/enrique/enrique_avatar.png",
     "isEmoji": false,
-    "skills": ["Hardware", "Infraestructura", "Electricidad"]
+    "skills": ["Hardware", "Infraestructura", "Soporte"],
+        "skillsDetailed": [
+      { "name": "Hardware", "level": 80 },
+      { "name": "Infraestructura", "level": 80 },
+      { "name": "Soporte", "level": 90 },
+      { "name": "Consultoría", "level": 90 },
+      { "name": "SQL", "level": 40 }
+    ],
+    "bio": "Actualmente estudio desarrollo de software, y deseo brindar soluciones tecnológicas prácticas.",
+    "ubicacion": "CABA, Argentina",
+    "edad": 58,
+    "techStack": ["🔌 Hardware", "🏗️ Infraestructura", "🛠️ Soporte", "💼 Consultoría", "🛢️ SQL"],
+    "redes": [
+      { "nombre": "GitHub", "url": "https://github.com/ewsaracco" },
+      { "nombre": "LinkedIn", "url": "https://linkedin.com" }
+    ],
+    "proyectos": [
+      {
+        "titulo": "SePrise - Gestión de Club Deportivo",
+        "descripcion": "Un sistema integral desarrollado para administrar socios, disciplinas y cobros de un club deportivo, diseñado inicialmente en Figma.",
+        "tag": "Backend & UI"
+      },
+      {
+        "titulo": "Sistema de control de inventario",
+        "descripcion": "Desarrollo de un sistema para control de repuestos.",
+        "tag": "Backend & DB"
+      },
+      {
+        "titulo": "Sistema de contabilidad personal",
+        "descripcion": "Aplicación de escritorio para control de las finanzas personales.",
+        "tag": "Backend & DB"
+      }
+    ]
   }
 ]
