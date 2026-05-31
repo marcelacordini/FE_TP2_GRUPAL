@@ -109,13 +109,46 @@
     ]
   },
   {
-    "id": "lucas",
-    "nombre": "Lucas Monteras",
-    "rol": "Desarrollador .NET",
-    "avatar": "img/lucas/avatarLucas.jpeg",
-    "isEmoji": false,
-    "skills": [".NET", "C#", "React JS"]
-  },
+  "id": "lucas",
+  "nombre": "Lucas Monteras",
+  "rol": "Desarrollador .NET",
+  "avatar": "img/lucas/avatarLucas.jpeg",
+  "isEmoji": false,
+  "skills": [".NET", "C#", "React JS"],
+  "skillsDetailed": [
+    { "name": "C#", "level": 85 },
+    { "name": ".NET / ASP.NET Core", "level": 82 },
+    { "name": "Entity Framework", "level": 78 },
+    { "name": "React", "level": 72 },
+    { "name": "SQL Server", "level": 80 },
+    { "name": "Git", "level": 80 }
+  ],
+  "bio": "Soy desarrollador de software y disfruto crear soluciones útiles y claras. Trabajo con C#, .NET, React y SQL Server, y siempre busco seguir aprendiendo y mejorando.",
+  "ubicacion": "CABA, Argentina",
+  "edad": 38,
+  "techStack": ["⚙️ .NET", "💻 C#", "⚛️ React", "🗄️ SQL Server", "🐙 Git"],
+  "redes": [
+    { "nombre": "GitHub", "url": "https://github.com/LucasMonteras" },
+    { "nombre": "LinkedIn", "url": "https://www.linkedin.com/in/lucas-monteras/" }
+  ],
+  "proyectos": [
+    {
+      "titulo": "Proyecto Interno con .NET y React",
+      "descripcion": "Desarrollo de funcionalidades internas sobre una plataforma profesional utilizando .NET, React, Entity Framework y SQL Server, participando en procesos reales de integración y mantenimiento.",
+      "tag": "Backend & Frontend"
+    },
+    {
+      "titulo": "Sitio Web Corporativo - Sehmat",
+      "descripcion": "Landing page profesional orientada a mostrar servicios, credenciales y contacto de un estudio de seguridad e higiene laboral, publicada y versionada con Git.",
+      "tag": "Landing Page"
+    },
+    {
+      "titulo": "App de Meteorología - LGM",
+      "descripcion": "Aplicación web interactiva para consultar el clima en tiempo real, desarrollada con HTML, CSS y JavaScript, integrando la API de OpenWeatherMap.",
+      "tag": "API REST"
+    }
+  ]
+},
   {
     "id": "enrique",
     "nombre": "Enrique Saracco",
