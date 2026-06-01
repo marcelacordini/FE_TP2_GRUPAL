@@ -258,30 +258,30 @@ El proyecto cumple al 100% con los requerimientos obligatorios de la cátedra:
 
 ## 8. 📸 Capturas de Pantalla
 
-**Home e Integrantes:**
+### 1. **Home & Perfil Profesional Dinámico**
 
 ![Portada - Integrante 1](public/img/screenshot/Adriana.gif)
 ![Integrante 2](public/img/screenshot/Marcela.gif)
 ![Integrante 3](public/img/screenshot/Monteras.gif)
 ![Integrante 4](public/img/screenshot/Enrique.gif)
 
-**Explorador JSON**
+### 2. **Explorador de Datos Locales**
 
 ![Explorador](public/img/screenshot/Explorador_json.gif)
 
-**API Externa**
+### 3. **Módulo de API Externa**
 
 ![API Externa](public/img/screenshot/api-externa.gif)
 
-**Galería Interactiva**
+### 4. **Galería Interactiva**
 
 ![Galeria Interactiva](public/img/screenshot/galeria.gif)
 
-**Arbol Renderizado**
+### 5. **Árbol de Renderizado**
 
 ![Arbol Renderizado](public/img/screenshot/render-tree.gif)
 
-**Bitácora**
+### 6. **Bitácora de Proyecto**
 
 ![Bitácora](public/img/screenshot/bitacora.gif)
 
