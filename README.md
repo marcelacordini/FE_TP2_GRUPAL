@@ -29,7 +29,7 @@ El sistema funciona como un Dashboard integral orientado al ecosistema tecnológ
 | Nombre | Apellido | GitHub |
 |--------|----------|--------|
 | Marcela | Cordini | [github.com/marcelacordini](https://github.com/marcelacordini) |
-| Adriana | Coronel | [github.com/tu-usuario](https://github.com/adco23) |
+| Adriana | Coronel | [github.com/adco23](https://github.com/adco23) |
 | Lucas | Monteras | [github.com/lucasmonteras](https://github.com/lucasmonteras) |
 | Enrique | Saracco | [github.com/ewsaracco](https://github.com/ewsaracco) |
 
