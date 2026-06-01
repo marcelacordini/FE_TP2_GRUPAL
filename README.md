@@ -258,12 +258,32 @@ El proyecto cumple al 100% con los requerimientos obligatorios de la cátedra:
 
 ## 8. Capturas de Pantalla
 
-**Portada e Integrantes:**
+**Home e Integrantes:**
 
 ![Portada - Integrante 1](public/img/screenshot/Adriana.gif)
 ![Integrante 2](public/img/screenshot/Marcela.gif)
 ![Integrante 3](public/img/screenshot/Monteras.gif)
 ![Integrante 4](public/img/screenshot/Enrique.gif)
+
+**Explorador JSON**
+
+![Explorador](public/img/screenshot/Explorador_json.gif)
+
+**API Externa**
+
+![API Externa](public/img/screenshot/api-externa.gif)
+
+**Galería Interactiva**
+
+![Galeria Interactiva](public/img/screenshot/galeria.gif)
+
+**Arbol Renderizado**
+
+![Arbol Renderizado](public/img/screenshot/render-tree.gif)
+
+**Bitácora**
+
+![Bitácora](public/img/screenshot/bitacora.gif)
 
 
 ---
