@@ -5,7 +5,7 @@
 
 El sistema funciona como un Dashboard integral orientado al ecosistema tecnológico, implementando rutas dinámicas, consumo de APIs asincrónicas, manejo de estados globales/locales y efectos visuales avanzados.
 
-**🔗 [Proyecto Desplegado en Vercel]((https://fe-tp-2-grupal.vercel.app/)**
+**🔗 [Proyecto Desplegado en Vercel](https://fe-tp-2-grupal.vercel.app/)**
 
 ---
 
