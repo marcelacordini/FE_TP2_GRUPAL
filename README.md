@@ -256,7 +256,7 @@ El proyecto cumple al 100% con los requerimientos obligatorios de la cátedra:
 
 ---
 
-## 8. Capturas de Pantalla
+## 8. 📸 Capturas de Pantalla
 
 **Home e Integrantes:**
 
