@@ -292,7 +292,7 @@ Para correr este proyecto en tu computadora, sigue estos pasos:
 |--------|-----|
 | **Repositorio GitHub** | https://github.com/marcelacordini/FE_TP2_GRUPAL |
 | **Proyecto en Vercel** | https://fe-tp-2-grupal.vercel.app |
-| **TP1 Original** | [Agregar URL del TP1 si existe] |
+| **TP1 Original** | https://github.com/adco23/FE_TP1_GRUPAL |
 
 ---
 
