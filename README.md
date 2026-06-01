@@ -252,9 +252,23 @@ El proyecto cumple al 100% con los requerimientos obligatorios de la cátedra:
 - Relaciones jerárquicas claras
 - Identificación de componentes reutilizables
 
+
+
 ---
 
-## 8. 🚀 Instalación y Ejecución Local
+## 8. Capturas de Pantalla
+
+**Portada e Integrantes:**
+
+![Portada - Integrante 1](public/img/screenshot/Adriana.gif)
+![Integrante 2](public/img/screenshot/Marcela.gif)
+![Integrante 3](public/img/screenshot/Monteras.gif)
+![Integrante 4](public/img/screenshot/Enrique.gif)
+
+
+---
+
+## 9. 🚀 Instalación y Ejecución Local
 
 Para correr este proyecto en tu computadora, sigue estos pasos:
 
@@ -286,7 +300,7 @@ Para correr este proyecto en tu computadora, sigue estos pasos:
 
 ---
 
-## 🔗 Enlaces Importantes
+## 10. 🔗 Enlaces Importantes
 
 | Enlace | URL |
 |--------|-----|
@@ -296,7 +310,7 @@ Para correr este proyecto en tu computadora, sigue estos pasos:
 
 ---
 
-## 9. 🤖 Uso de Inteligencia Artificial
+## 11. 🤖 Uso de Inteligencia Artificial
 
 En este proyecto la inteligencia artificial se utilizó como herramienta de apoyo externo en el proceso de desarrollo. No hay ningún paquete de IA instalado en `package.json`; la IA funcionó como asistente para mejorar la calidad del contenido y resolver dudas técnicas.
 
